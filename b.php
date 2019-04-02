@@ -1,5 +1,4 @@
 <?php
- content-type="text/json";
 $callback = !empty($_GET['callback']) ? trim($_GET['callback']) : '';
  
 if(!empty($callback)) {
